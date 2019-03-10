@@ -33,7 +33,7 @@ h3{
 h1 {
     font-size: 240%;
     margin-top: 0px;
-    margin bottom: 20px;
+    margin bottom: 10px;
     margin: 0;
     color: #c3c3c3;
     word-spacing: 4px;
@@ -76,6 +76,8 @@ h3{
 /*----Buttons----*/
 .btn:link,
 .btn:visited {
+    margin-top: 10px;
+    margin-right: 15px;
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -96,10 +98,9 @@ h3{
 
 .btn-github:link,
 .btn-github:visited{
-    margin-top: 100px;
+
     background-color: #262626;
     border: 2px solid #262626;
-    margin-right: 15px;
 }
 
 .btn-github:hover,
@@ -118,6 +119,15 @@ h3{
     background-color:#262626; 
 }
 
+.btn-linkedin:link,
+.btn-linkedin:active{
+    border: 2px solid #262626;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:active{
+    background-color:#262626; 
+}
 
 .row {
     max-width: 1140px;
@@ -155,7 +165,7 @@ header {
 
 .name-textbox {
     position: absolute;
-    width: 350px;
+    width: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -181,11 +191,52 @@ header {
     text-decoration: none;
     font-size: 90%;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
+    transition: border-bottom 0.5s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #262626;
-    transition: border-bottom 0.2s;
+    transition: border-bottom 0.5s;
 }
+
+/*-----------------------------------------------------
+ABOUT SECTION
+-----------------------------------------------------*/
+
+.section-about long-copy{
+    margin: 30px;
+}
+
+/*-----------------------------------------------------
+PROJECTS SECTION
+-----------------------------------------------------*/
+.projects-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.projects-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.project-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.project-photo img{
+     width: 100%;
+    height: auto;
+}
+
+.project-photo img:hover,
+.project-photo img:active{
+    background-color: #fff;
+}
+
+
+
+
