@@ -211,15 +211,20 @@ ABOUT SECTION
 /*-----------------------------------------------------
 PROJECTS SECTION
 -----------------------------------------------------*/
+.projects-heading{
+    text-align: center
+}
+
 .projects-showcase{
     list-style: none;
+    lis
     width: 100%;
 }
 
 .projects-showcase li{
     display: block;
     float: left;
-    width: 25%;
+    width: 33.33%;
 }
 
 .project-photo {
@@ -228,7 +233,8 @@ PROJECTS SECTION
 }
 
 .project-photo img{
-     width: 100%;
+    width:75%;
+    margin-left: 12.5%; 
     height: auto;
 }
 
